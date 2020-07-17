@@ -18,8 +18,8 @@ spec:
   selector:
     app: zk-1
 ---
-kind: Deployment
-apiVersion: extensions/v1beta1
+kind: Stateful Sets
+apiVersion: apps/v1
 metadata:
   name: zk-deployment-1
 spec:
