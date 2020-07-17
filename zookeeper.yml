@@ -31,13 +31,13 @@ spec:
     labels:
         app: zk-1
     spec:
-    containers:
-    - name: zk1
-      image: bitnami/zookeeper
-      ports:
-      - containerPort: 2181
-      env:
-      - name: ZOOKEEPER_ID
-        value: "1"
-      - name: ZOOKEEPER_SERVER_1
-        value: zk1
+      containers:
+      - name: zk1
+        image: bitnami/zookeeper
+        ports:
+        - containerPort: 2181
+        env:
+        - name: ZOOKEEPER_ID
+          value: "1"
+        - name: ZOOKEEPER_SERVER_1
+          value: zk1
