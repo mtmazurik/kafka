@@ -28,7 +28,7 @@ spec:
         name: zk-deployment-1
   template:
     metadata:
-    labels:
+      labels:
         app: zk-1
     spec:
       containers:
